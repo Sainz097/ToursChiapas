@@ -1,0 +1,412 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: #9370DB;
+}
+h1{
+    color: #fff;
+    text-align: center;
+}
+.form-register{
+    width: 98%;
+    max-width: 500%;
+    margin: auto;
+    background: white;
+    border-radius: 7px;
+}
+.form__title{
+    background: deepskyblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid crimson;
+}
+.container-inputs{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+input{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+.input-48{
+    width: 48%;
+}
+.input-100{
+    width: 100%;
+}
+.btn{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px auto;
+    width: 100px;
+    background:#9370DB;
+    color: white;
+    cursor: pointer;
+}
+.btn:active{
+    transform: scale(1.5);
+}
+.btn--cancelar{
+    position: 50px;
+}
+.btn--continuar{
+    position: 100px;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Pacifico');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', cursive;
+    margin: 0;
+    color:#9370DB;
+}
+img{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    margin: auto; 
+}
+.container--flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.column{
+    width: 100%;
+}
+.main-header{
+    width: 100%;
+}
+.logo{
+    font-size: 1.8em;
+    color: #9370DB;
+    padding: 10px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+}
+.main-header__contactInfo__phone{
+    display: none;
+    background: #9370DB;
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+}
+.main-header__contactInfo__address{
+    display: none;
+    margin: 0;
+    padding: 10px;
+}
+.main-header[class*="icon-"]:before{
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+.main-nav{
+    width: 100%;
+    position: relative;
+    z-index: 2000;
+    padding: 10px;
+}
+.icon-menu{
+    display: block;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+.menu{
+    /*display: none;*/
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,.2);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    height: 0;
+    overflow: hidden;
+    transition: height .3s linear;
+}
+.menu__link{
+    display: block;
+    padding:15px;
+    color:white;
+    text-decoration: none;
+}
+.menu__link:hover{
+    background: #9370DB;
+}
+.menu__link--select{
+    background: #9370DB;
+}
+.mostrar{
+    height: 100px;
+}
+.banner{
+    margin-top: -60px;
+    position: relative;
+}
+.banner:before{
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    top: 0;
+}
+.banner__img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+.banner__content{
+    width: 90%;
+    color:white;
+    text-align: center;
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.group--color .container{
+    background: #9370DB;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.main__title{
+    margin: 15px 0;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.8em;
+    font-weight: 100;
+}
+.column__title{
+    font-size: 1.3em;
+}
+.main__about__description .column:nth-child(2){
+    padding: 10px;
+}
+.btn{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    margin: 10px auto;
+    background: #9370DB;
+    color: white;
+}
+.group__title{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.8em;
+    margin: 30px;
+}
+.more-tours .column{
+    margin-bottom: 30px;  
+}
+.more-tours__img{
+    margin: auto;
+    max-width: 350px;
+}
+.more-tours__title{
+    text-align: center;
+    font-size: 1.3em;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.more-tours__price{
+    font-size: 1.5em;
+    text-align: center;
+    color:#9370DB;
+    font-weight: bold;
+}
+.main-footer{
+    background: #222;
+    color: white;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: .8em;
+}
+
+.copy{
+    text-align: center;
+    margin: auto;
+    margin-top: auto;
+    background: #222;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+}
+.main-footer [class*="icon-"]{
+    color:white;
+    text-decoration: none;  
+}
+.main-footer [class*="icon-"]:before{
+    position: relative;
+    top: 3px;
+    right: 5px;
+}
+@media screen and (min-width:480px){
+    .logo{
+        color: white;
+    }
+    .main-header__contactInfo{
+        text-align: right;
+    }
+    .main-header__contactInfo__phone{
+        background: none;
+    }
+    .main-header__contactInfo__address{
+        display: none;
+        color: white;
+    }
+    .main-nav{
+        background: rgba(0,0,0,.2);
+    }
+    .main{
+        padding-bottom: 15px;
+    }
+   
+    .banner{
+        margin-top: -190px;
+        z-index: -1000;
+    }
+    .banner__content{
+        font-size: 2em;
+    }
+    .main-footer .container--flex{
+        align-items: flex-start;
+    }
+    .column--50{
+        width: 50%;
+    }
+    .column--50--25{
+        width: 49%;
+    }
+    .column--33{
+        width: 32%;
+    }
+    .main__about__description .column:nth-child(2){
+        padding-left: 20px;
+        font-size: .9em;
+    }
+    .main__about__description .btn{
+        margin: 0;
+    }
+    .more-tours .column{
+        border: 5px solid #ddd;
+        padding: 5px;
+        object-fit: cover;
+    }
+    .more-tours__img{
+        height: 200px;
+        object-fit: cover;
+    }
+}
+@media screen and (min-width:768px){
+    .main__title{
+        font-size: 2.2em;
+    }
+    .main__about__description{
+        margin-top: 30px;
+    }
+    .main__about__description .column--50:nth-child(2){
+        font-size: 1em;
+    }
+    .main__about__description .column--50:nth-child(2) .column__txt{
+        line-height: 30px;
+    }
+    .column--50--25{
+        width: 25%;
+    }
+    .column__title{
+        font-size: 1em;
+    }
+    .group__title{
+        font-size: 2.2em;
+    }
+}
+@media screen and (min-width:1024px){
+    .container{
+        width: 1000px;
+    }
+    .logo{
+        font-size: 2em;
+        padding: 0;
+    }
+    .main-nav{
+        padding: 0;
+    }
+    .banner__content{
+        font-size: 2.5em;
+    }
+    .icon-menu{
+        display: none;
+    }
+    .menu{
+        position: static;
+        display: flex;
+        height: auto;
+        width: auto;
+    }
+    .group--color .container{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+    .main__title{
+        font-size: 2.5em;
+    }
+    .main__about__description .column--50:nth-child(2) .column__txt{
+        line-height: 50px;
+    }
+    .more-tours__title{
+        font-size: 1.4em;
+    }
+    .more-tours__price{
+        font-size: 1.8em;
+    }
+    .main-footer{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
